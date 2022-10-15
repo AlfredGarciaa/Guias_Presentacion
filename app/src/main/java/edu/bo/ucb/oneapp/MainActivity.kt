@@ -1,11 +1,11 @@
 package edu.bo.ucb.oneapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,5 +25,10 @@ class MainActivity : AppCompatActivity() {
         miboton3.setOnClickListener { mitexto.text = "Acerca De" }
         miboton4.setOnClickListener { mitexto.text = "Contacto" }
         miboton5.setOnClickListener { mitexto.text = "Redes Sociales" }
+
+        // Cambiar de Actividad \\
+        miboton1.setOnClickListener {
+            startActivity(Intent(this, ServiciosActivity::class.java))
+        }
     }
 }
