@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">OneApp</string>
+    <string name="btn_red">Red</string>
+    <string name="btn_white">White</string>
 </resources>
