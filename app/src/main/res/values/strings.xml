@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">OneApp</string>
+    <string name="btn_servicios">SERVICIOS</string>
+    <string name="btn_portafolio">PORTAFOLIO</string>
+    <string name="btn_acerca">ACERCA DE</string>
+    <string name="btn_contacto">CONTACTO</string>
+    <string name="btn_redes">REDES SOCIALES</string>
 </resources>
