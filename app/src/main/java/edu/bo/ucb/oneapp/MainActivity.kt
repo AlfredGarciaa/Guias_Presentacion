@@ -30,5 +30,10 @@ class MainActivity : AppCompatActivity() {
         miboton1.setOnClickListener {
             startActivity(Intent(this, ServiciosActivity::class.java))
         }
+
+        val miboton6 = findViewById<View>(R.id.btn_ejercicio1) as Button
+        miboton6.setOnClickListener {
+            startActivity(Intent(this, Ejercicio_1::class.java))
+        }
     }
 }
