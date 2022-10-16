@@ -26,14 +26,20 @@ class MainActivity : AppCompatActivity() {
         miboton4.setOnClickListener { mitexto.text = "Contacto" }
         miboton5.setOnClickListener { mitexto.text = "Redes Sociales" }
 
-        // Cambiar de Actividad \\
+        // Cambiar de Vista \\
         miboton1.setOnClickListener {
             startActivity(Intent(this, ServiciosActivity::class.java))
         }
 
-        val miboton6 = findViewById<View>(R.id.btn_ejercicio1) as Button
-        miboton6.setOnClickListener {
+        // Vista 2 \\
+        val vista_2 = findViewById<View>(R.id.btn_ejercicio1) as Button
+        vista_2.setOnClickListener {
             startActivity(Intent(this, Ejercicio_1::class.java))
+        }
+        // Vista 3 \\
+        val vista_3 = findViewById<View>(R.id.btn_varios) as Button
+        vista_3.setOnClickListener {
+            startActivity(Intent(this, Ejercicios_Varios::class.java))
         }
     }
 }

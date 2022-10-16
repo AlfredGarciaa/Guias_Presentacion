@@ -14,13 +14,21 @@
         android:theme="@style/Theme.OneApp"
         tools:targetApi="31">
         <activity
-            android:label="Par-Impar"
-            android:name=".Ejercicio_1"
-            android:exported="false" />
+            android:name=".Formulario"
+            android:exported="false"
+            android:label="Formulario de Correo" />
         <activity
-            android:label="Servicios"
+            android:name=".Ejercicios_Varios"
+            android:exported="false"
+            android:label="Tarea de Clase" />
+        <activity
+            android:name=".Ejercicio_1"
+            android:exported="false"
+            android:label="Par-Impar" />
+        <activity
             android:name=".ServiciosActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Servicios" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
