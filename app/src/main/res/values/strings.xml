@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">OneApp</string>
+    <string name="app_name">Guia #9</string>
+    <string name="horario">7:24 PM - 8:00 PM</string>
+    <string name="tiempo">36 min.</string>
+    <string name="chip_text">6</string>
+    <string name="signo"><![CDATA[>]]></string>
+    <string name="horario_2">7:26 PM from 96 St</string>
+    <string name="tiempo_2">13 min</string>
 </resources>
