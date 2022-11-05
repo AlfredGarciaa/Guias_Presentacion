@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">OneApp</string>
+    <string name="app_name">Guia #15</string>
+    <string name="btn">Conectado a Internet?</string>
 </resources>
