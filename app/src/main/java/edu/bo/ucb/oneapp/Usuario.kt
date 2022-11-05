@@ -1,3 +1,3 @@
 package edu.bo.ucb.oneapp
 
-data class Usuario(val nombre: String, val apellido: String, val edad: Int)
+data class Usuario(val agente: String, val edad: Int)
