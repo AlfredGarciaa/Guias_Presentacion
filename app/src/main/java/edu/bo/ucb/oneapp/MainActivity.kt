@@ -3,7 +3,6 @@ package edu.bo.ucb.oneapp
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Context
-import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import android.view.View
@@ -26,8 +25,8 @@ class MainActivity : AppCompatActivity() {
         createNotificationChannel()
 
         val notification = NotificationCompat.Builder(this, channelID).also {
-            it.setContentTitle("Titulo de notificacion")
-            it.setContentText("Este es el contenido de la notificacion")
+            it.setContentTitle("You Tube - 'LATINOAMERICA'")
+            it.setContentText("20:14 P.M    Los videos mas gracioso de gatos salvajes.")
             it.setSmallIcon(R.drawable.ic_message)
             it.setPriority(NotificationCompat.PRIORITY_HIGH)
         }.build()
