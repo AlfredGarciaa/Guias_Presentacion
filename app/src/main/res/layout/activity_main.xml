@@ -30,8 +30,8 @@
             android:layout_height="wrap_content"
             android:text="@string/cartas"
             android:textStyle="bold"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/black"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
             android:layout_weight="1"
             android:onClick="onClick"/>
 
