@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">OneApp</string>
+    <string name="app_name">"CIUDAD DE SPRINGFIELD"</string>
+    <string name="personajes">Lista</string>
+    <string name="cartas">Carta</string>
+    <string name="name">Nombre</string>
+    <string name="details">Descripcion</string>
+    <string name="NAME">Nombre</string>
 </resources>
