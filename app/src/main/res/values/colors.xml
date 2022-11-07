@@ -7,4 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    //News Colors
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    // Nuevos colores \\
+    <color name="red">#FF0000</color>
+    <color name="pink">#FF4081</color>
+    <color name="amber">#FFA000</color>
+    <color name="green">#8BC34A</color>
+    <color name="brown">#795548</color>
+    <color name="cyan">#009688</color>
 </resources>
