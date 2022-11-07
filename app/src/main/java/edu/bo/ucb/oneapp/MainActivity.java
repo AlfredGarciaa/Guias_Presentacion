@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.R
         itemLists.add(new ItemList("Richard Branson", "El empresario y fundador de Virgin Group, a menudo aparece como un líder inspirador. Virgin Group cuenta con más de 200 empresas en más de 30 países.", R.drawable.richard_branson));
         itemLists.add(new ItemList("Steve Jobs", "Steve Jobs fue el co-fundador y CEO de Apple, y a menudo se hace referencia como uno de los CEOs de su generación más influyente.", R.drawable.steve_jobs));
         itemLists.add(new ItemList("Mohammad Yunus", "El empresario social y economista de Bangladesh fue galardonado con el Premio Nobel de la Paz en 2006 por fundar el Banco Grameen y por su trabajo para \"crear desarrollo económico y social desde abajo.", R.drawable.mohammad_yunus));
-        itemLists.add(new ItemList("Vladimir Putin", "Es un abogado y político ruso, líder de facto del partido político Rusia Unida. Actualmente se desempeña como presidente de Rusia, cargo que ocupa desde 2012, y anteriormente desde 2000 hasta 2008.\u200B También fue presidente del gobierno de 1999 a 2000, y nuevamente de 2008 a 2012.", R.drawable.vladimir_putin));
-        itemLists.add(new ItemList("Kim Jong-un", "Es un político, dictador, y militar norcoreano.\u200B Desde 2011 es el líder supremo de la República Popular Democrática de Corea y desde 2012 lidera el Partido del Trabajo de Corea.", R.drawable.kim_jong_un));
+        itemLists.add(new ItemList("Vladimir Putin", "Es un abogado y político ruso, líder de facto del partido político Rusia Unida. Actualmente se desempeña como presidente de Rusia, cargo que ocupa desde 2012, y anteriormente desde 2000 hasta 2008. También fue presidente del gobierno de 1999 a 2000, y nuevamente de 2008 a 2012.", R.drawable.vladimir_putin));
+        itemLists.add(new ItemList("Kim Jong-un", "Es un político, dictador, y militar norcoreano. Desde 2011 es el líder supremo de la República Popular Democrática de Corea y desde 2012 lidera el Partido del Trabajo de Corea.", R.drawable.kim_jong_un));
 
         return itemLists;
     }
