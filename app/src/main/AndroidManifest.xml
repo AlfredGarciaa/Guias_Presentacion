@@ -8,11 +8,27 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Menú Principal"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.OneApp"
         tools:targetApi="31">
+        <activity
+            android:name=".Formulario"
+            android:exported="false"
+            android:label="Formulario de Correo" />
+        <activity
+            android:name=".Ejercicios_Varios"
+            android:exported="false"
+            android:label="Tarea de Clase" />
+        <activity
+            android:name=".Ejercicio_1"
+            android:exported="false"
+            android:label="Par-Impar" />
+        <activity
+            android:name=".ServiciosActivity"
+            android:exported="false"
+            android:label="Servicios" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
