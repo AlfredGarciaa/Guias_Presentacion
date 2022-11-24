@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">OneApp</string>
+    <string name="app_name">Guia #8</string>
+    <string name="welcome">!!! Bienvenido Magister !!!</string>
+    <string name="undo_string">UNDO</string>
 </resources>
